@@ -42,7 +42,7 @@
         mvno_type="gid"
         mvno_match_data="424C5545FFFFFFFFFF"
     />
-    <apn carrier="Internet_5G"
+    <apn carrier="INTERNET_5G"
         mcc="334"
         mnc="050"
         apn="5g.ubix.mx"
@@ -191,7 +191,7 @@
         mvno_type="gid"
         mvno_match_data="424C5545FFFFFFFFFF"
     />
-    <apn carrier="Modem"
+    <apn carrier="modem"
         mcc="334"
         mnc="050"
         apn="modem.ubix.mx"
@@ -213,7 +213,7 @@
         mvno_type="gid"
         mvno_match_data="4E45575757FFFFFFFF"
     />
-    <apn carrier="Modem"
+    <apn carrier="modem"
         mcc="334"
         mnc="050"
         apn="modem.yomobile.mx"
@@ -2028,11 +2028,11 @@
         read_only="true"
     />
 
-    <apn carrier="LG U+ IA"
+    <apn carrier="LG U+"
         mcc="450"
         mnc="06"
         apn=""
-        type="ia"
+        type="ia,emergency"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
         user_visible="0"
@@ -2055,16 +2055,6 @@
         apn="tethering.lguplus.co.kr"
         type="dun"
         protocol="IPV4V6"
-        roaming_protocol="IP"
-        user_visible="0"
-    />
-
-    <apn carrier="LG U+ Emergency"
-        mcc="450"
-        mnc="06"
-        apn=""
-        type="emergency"
-        protocol="IP"
         roaming_protocol="IP"
         user_visible="0"
     />

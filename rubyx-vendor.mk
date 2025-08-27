@@ -1558,6 +1558,7 @@ PRODUCT_PACKAGES += \
     libnir_neon_driver_ndk.mtk.vndk \
     libnotifyaudiohal \
     liboemcrypto \
+    libpowerhalwrap_vendor \
     libpq_cust_base \
     libpqframework \
     libpqparamparser \
@@ -1568,6 +1569,7 @@ PRODUCT_PACKAGES += \
     libstereoinfoaccessor_vsdof \
     libstorage_otp \
     libsysenv \
+    libtflite_mtk \
     libthhclient \
     libtlcWidevineModularDrm \
     libtrm \
